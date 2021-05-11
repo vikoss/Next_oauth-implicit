@@ -13,12 +13,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>
-          From env variables { config.spotifyRedirectUri }
-        </h1>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          From env variables
         </h1>
+        <p>
+          { config.spotifyRedirectUri }
+        </p>
 
         <p className={styles.description}>
           Get started by editing{' '}
